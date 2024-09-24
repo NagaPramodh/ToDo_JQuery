@@ -1,0 +1,54 @@
+body {
+	font-family: arial;
+	background-color: #9B50AF;
+}
+
+#add-container {
+	margin-top: 50px;
+	margin-bottom: 80px;
+	display: flex;
+	flex-direction: column;
+	gap:20px;
+	width: 150px;
+	/* margin-left: 30px;  */
+}
+
+#places-container {
+	/* margin-left: 30px; */
+}
+.add-button{
+	height: 30px;
+}
+
+.item-header{
+	
+}
+.item {
+	width: 150px;
+	margin: 10px;
+	background-color: #3BEAB4;
+	padding: 10px;
+	max-width: 230px;
+}
+
+.remove {
+	width: 15px;
+	float: right;
+	color: red;
+	cursor: pointer;
+}
+
+button {
+	background-color: #F09306;
+	color: white;
+	font-weight: bold;
+	border:none;
+	padding: 5px;
+}
+
+.whole-page{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
